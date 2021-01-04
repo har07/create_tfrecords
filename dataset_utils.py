@@ -1,9 +1,12 @@
 import math
 import os
 import sys
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
-slim = tf.contrib.slim
+# slim = tf.contrib.slim
+# replace with: https://github.com/google-research/tf-slim
+import tf_slim as slim
 
 #State the labels filename
 LABELS_FILENAME = 'labels.txt'
